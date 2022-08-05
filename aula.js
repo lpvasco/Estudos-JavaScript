@@ -23,8 +23,8 @@
 // let Ryan = ['Ryan',18,'Santo André',]
 // console.log(Ryan);
 
-//Functions
-//Verbo + Substantivo
+// Functions
+// Verbo + Substantivo
 // let corSite = "azul";
 // function resetaCor(cor,tonalidade){
 //     corSite = cor + ' ' + tonalidade;
@@ -103,4 +103,85 @@
 //boolean
 //false = undefined, null ,0 ,false ,'', NaN
 
+//IF ELSE
+//se a hora estiver entre 06 ate 12, exibira bom dia, se tiver 12 ate 18
+//sera boa tarde, se nao boa noite
+// let hora = 7;
 
+// if (hora >= 6 && hora < 12) {
+//     console.log('Bom dia');
+// }
+// else if (hora >= 12 && hora < 18) {
+//     console.log('boa tarde')
+// }
+// else {
+//     console.log('boa noite')
+// }
+
+//SWITCH...CASE
+// let permissao; //comum, gerente ou diretor
+// permissao = 'diretor';
+
+// switch (permissao) {
+//     case 'comum':
+//     console.log('user comum');
+//     break;
+    
+//     case 'gerente':
+//     console.log('user gerente');
+//     break;
+
+//     case 'diretor':
+//     console.log('user diretor');
+//     break;
+
+//     default:
+//     console.log('NAO RECONHECIDO');
+// } 
+
+//LOOP OU LAÇOS FOR, WHILE, DO...WHILE, FOR...IN, FOR..OF
+//FOR
+// for(let i = 1;i <= 10;i++) {
+//     if(i % 2 !== 0) {
+//         console.log(i);
+//     }
+// }
+
+//WHILE loop
+// let i = 10;
+
+// while (i >= 1,i--) {
+//     if(i % 2 !==0) {
+//         console.log(i)
+//     }
+// }
+
+//DO WHILE
+// let i = 1;
+// do {
+//     console.log('estou digitando', i);
+//     i++;
+// } while (i <= 20)
+
+//FOR..IN
+// const pessoa = {
+//     nome: 'lucas',
+//     idade: 18
+// };
+
+// for(let chave in pessoa) {
+//     console.log(chave);
+// }
+
+// const cores = ['blue','orange','green'];
+
+// for (let indice in cores) {
+//     console.log(indice,cores)
+// }
+
+//for-of
+// const cores = ['blue','orange','green'];
+
+// for(let cor of cores) {
+//     console.log(cor);
+// }
